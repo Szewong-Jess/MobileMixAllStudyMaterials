@@ -50,13 +50,12 @@ public class MainActivity extends AppCompatActivity {
         listViewShowTime.setOnItemClickListener((parent, view, position, id) -> {
                 campAdapter.setSelectedInd(position);
                 campAdapter.notifyDataSetChanged();
-                Intent myResult = new Intent(MainActivity.this, MainActivity.class);
+                Intent myResult = new Intent(MainActivity.this, SecondActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("PARENTNAME", parentName.getText().toString());
                 bundle.putString("CAMPTIME", CampTimes.get(position));
                 myResult.putExtras(bundle);
                 startActivity(myResult);
-                startActivity(new Intent(MainActivity.this, SecondActivity.class));
             });
     }
 
