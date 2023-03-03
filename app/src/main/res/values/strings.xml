@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SzeWongLastInitial_3175MT</string>
+    <string name="txtViewtitle">SzeWong-300359901</string>
+    <string name="radBtnTxtFood">Yes, I want food at the camp</string>
+    <string name="radBtnTxtNoFood">No, I do not want food at the camp</string>
+    <string name="txtParentName">Parent Name</string>
+    <string name="txtNumKids">Number of Kids</string>
+    <string name="txtSpinnerPrompt">Select Camp</string>
+    <string name="btnBookCamp">Book Camp</string>
+    <string name="txtImgDesc">Camp Pic</string>
+    <string-array name="campTypes">
+        <item>Soccer Goals</item>
+        <item>Theatre Acts</item>
+        <item>Karate Kicks</item>
+    </string-array>
+
+
+</resources>
